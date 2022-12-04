@@ -1,0 +1,21 @@
+{
+  "name": "chrome-devtools-theme",
+  "displayName": "chrome-devtools-theme",
+  "description": "A VS Code theme inspired by the Chrome devtools",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Chrome DevTools",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chrome-devtools-color-theme.json"
+      }
+    ]
+  }
+}
